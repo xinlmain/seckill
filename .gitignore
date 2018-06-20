@@ -1,3 +1,10 @@
+### idea
+target/
+.idea/
+*.iml
+
+
+### java
 # Compiled class file
 *.class
 
