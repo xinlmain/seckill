@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class SuccessKilled {
 
-    private long seckilled;
+    private long seckillId;
 
     private long userPhone;
 
@@ -14,12 +14,12 @@ public class SuccessKilled {
 
     private Seckill seckill;
 
-    public long getSeckilled() {
-        return seckilled;
+    public long getSeckillId() {
+        return seckillId;
     }
 
-    public void setSeckilled(long seckilled) {
-        this.seckilled = seckilled;
+    public void setSeckilled(long seckillId) {
+        this.seckillId = seckillId;
     }
 
     public long getUserPhone() {
@@ -57,7 +57,7 @@ public class SuccessKilled {
     @Override
     public String toString() {
         return "SuccessKilled{" +
-                "seckilled=" + seckilled +
+                "seckillId=" + seckillId +
                 ", userPhone=" + userPhone +
                 ", state=" + state +
                 ", createTime=" + createTime +
